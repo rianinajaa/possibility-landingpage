@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#191b1e">
+  <meta name="description" content="Progress & Possibility. An exploration of creativity, curiosity, and the forces that move us forward.">
+  <title>Progress & Possibility — Digital Surgeons</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/gilroy-extrabold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./assets/three.module.js"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#experience">Skip to experience</a>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Digital Surgeons home"><img src="assets/logo.svg" alt="digitalsurgeons" width="184" height="27"></a>
+    <div class="header-actions"><a href="#contact" class="contact-link">Let's talk possibilities</a><button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button></div>
+  </header>
+  <main id="experience">
+    <div id="top" class="scroll-story">
+      <div class="stage">
+        <div id="scene" aria-hidden="true"></div>
+        <div class="vignette"></div>
+        <div class="hero-atmosphere" aria-hidden="true"><div class="hero-halo"></div><div class="orbit orbit-one"><i></i></div><div class="orbit orbit-two"><i></i></div><span class="hero-side">Creativity in motion</span><span class="hero-coordinate">A different perspective</span></div>
+        <section class="copy hero" aria-label="Progress and possibility">
+          <h1>Progress &amp;<br>Possibility</h1>
+          <p>Forces of change that every brand, business, and human face.</p>
+          <button class="explore" aria-label="Scroll to explore our work">Scroll to explore<span class="scroll-line"></span></button>
+        </section>
+        <section class="copy belief" aria-label="Our belief"><h2>We believe creativity<br>&amp; curiosity are broken<br>in business.</h2></section>
+        <section class="copy fracture" aria-label="A different perspective"><span class="outline-mark" aria-hidden="true">△</span><h2>Fracturing our ability to experiment with<br class="desktop-break"> new ideas, tactics, and experiences that<br class="desktop-break"> lead to growth.</h2></section>
+        <section class="copy possibility" aria-label="New possibilities"><h2>Break the mold.<br>Make progress.</h2><p>Great things begin with a different perspective.</p><button class="restart">Experience it again <span aria-hidden="true">↻</span></button></section>
+        <div class="work-hint">A few different perspectives. <button id="view-work">Explore the work</button></div>
+        <div class="scene-loading" role="status">Shaping possibilities<span></span></div>
+        <div class="chapter-status" aria-hidden="true"><span class="chapter-name">Progress &amp; Possibility</span><span class="chapter-line"></span></div>
+        <div class="scroll-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </div>
+    <span id="contact" class="anchor-end"></span>
+  </main>
+  <dialog id="navigation" class="navigation">
+    <div class="nav-top"><span>Explore possibilities</span><button class="close-menu" aria-label="Close menu">Close <span>×</span></button></div>
+    <nav><a href="#top" data-progress="0">Progress &amp; possibility</a><a href="#work" data-progress="0.29">Selected work</a><a href="#belief" data-progress="0.54">What we believe</a><a href="#possibility" data-progress="1">A new perspective</a></nav>
+    <p>A study in creativity, curiosity, and motion.</p>
+  </dialog>
+  <dialog id="work-dialog" class="work-dialog">
+    <div class="nav-top"><span>Selected perspectives</span><button class="close-work" aria-label="Close selected work">Close <span>×</span></button></div>
+    <h2>Different by design.</h2>
+    <div class="project-grid"><article><img src="assets/naboso.webp" alt="Naboso brand design with vivid pink typography"><h3>Naboso</h3><p>Brand identity &amp; digital experience</p></article><article><img src="assets/blenders.webp" alt="Blenders eyewear brand project"><h3>Blenders</h3><p>A fresh perspective on eyewear</p></article><article class="concept-project"><div class="concept-art"><span>What<br>comes<br>next?</span><i></i></div><h3>New possibilities</h3><p>An independent design exploration</p></article></div>
+    <p class="study-note">Reference recreation. Project imagery belongs to Digital Surgeons and the respective brands. Zeus scan by <a href="https://zenodo.org/records/21172621" target="_blank" rel="noopener">Scan the World</a>, adapted under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.</p>
+  </dialog>
+  <dialog id="contact-dialog" class="contact-dialog"><button class="close-contact" aria-label="Close contact">Close <span>×</span></button><span class="outline-mark">△</span><h2>Everything starts<br>with a possibility.</h2><p>This is an interactive recreation of the supplied reference.</p><button class="contact-restart">Back to the experience</button></dialog>
+  <noscript><div class="no-script"><h1>Progress &amp; Possibility</h1><p>Enable JavaScript to explore this interactive 3D experience.</p></div></noscript>
+  <div class="custom-cursor" aria-hidden="true"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
